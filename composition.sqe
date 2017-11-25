@@ -1,5 +1,5 @@
 version=53;
-center[]={6895.1245,5,3401.7791};
+center[]={2677.9727,311.267,1011.049};
 class items
 {
 	items=1;
@@ -9,16 +9,17 @@ class items
 		name="Réglages de mission";
 		class Entities
 		{
-			items=39;
+			items=40;
 			class Item0
 			{
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-3.0507813,0,-3.2089844};
+					position[]={-3.234375,1.1203918,-3.7635498};
 				};
-				id=115;
+				id=6;
 				type="ace_advanced_fatigue_moduleSettings";
+				atlOffset=-0.066650391;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -124,10 +125,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={5.9912109,0,3.9296875};
+					position[]={5.8076172,0,3.3751221};
 				};
-				id=116;
+				id=7;
 				type="ACE_moduleAdvancedMedicalSettings";
+				atlOffset=-0.061340332;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -385,10 +387,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-4.0908203,0,-2.4921875};
+					position[]={-4.2744141,1.2155151,-3.0467529};
 				};
-				id=117;
+				id=8;
 				type="ace_advanced_throwing_Module";
+				atlOffset=-0.067077637;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -494,10 +497,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-5.0161133,0,-1.7163086};
+					position[]={-5.199707,1.2968445,-2.270874};
 				};
-				id=118;
+				id=9;
 				type="ACE_moduleAllowConfigExport";
+				atlOffset=-0.067260742;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -527,10 +531,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={4.8730469,0,4.715332};
+					position[]={4.6894531,0.094024658,4.1607666};
 				};
-				id=119;
+				id=10;
 				type="ACE_moduleBasicMedicalSettings";
+				atlOffset=-0.061309814;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -579,10 +584,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-1.2006836,0,-3.0581055};
+					position[]={-1.3842773,0.91696167,-3.6126709};
 				};
-				id=120;
+				id=11;
 				type="ACE_ModuleBlueForceTracking";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -669,10 +675,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-2.3012695,0,-2.2905273};
+					position[]={-2.4848633,1.017395,-2.8450928};
 				};
-				id=121;
+				id=12;
 				type="ace_captives_moduleSettings";
+				atlOffset=-0.066009521;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -732,7 +739,26 @@ class items
 							};
 						};
 					};
-					nAttributes=3;
+					class Attribute3
+					{
+						property="ace_captives_moduleSettings_requireSurrenderAi";
+						expression="_this setVariable ['requireSurrenderAi',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=4;
 				};
 			};
 			class Item7
@@ -740,10 +766,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={2.2910156,0,2.277832};
+					position[]={2.1074219,0.42205811,1.7232666};
 				};
-				id=122;
+				id=13;
 				type="ACE_moduleCargoSettings";
+				atlOffset=-0.065338135;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -792,10 +819,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-3.3725586,0,-1.4770508};
+					position[]={-3.5561523,1.1135559,-2.0316162};
 				};
-				id=123;
+				id=14;
 				type="ACE_ModuleExplosive";
+				atlOffset=-0.066009521;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -863,11 +891,12 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={6.1259766,0,-3.1181641};
+					position[]={5.9423828,0.14862061,-3.6727295};
 				};
 				name="ZeusAdminLogged";
-				id=124;
+				id=15;
 				type="ModuleCurator_F";
+				atlOffset=-0.063354492;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -973,11 +1002,12 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={5.3583984,0,-4.3974609};
+					position[]={5.1748047,0.25747681,-4.9520264};
 				};
 				name="ZeusAdminVoted";
-				id=125;
+				id=16;
 				type="ModuleCurator_F";
+				atlOffset=-0.064300537;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1083,11 +1113,12 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={4.5527344,0,-5.6264648};
+					position[]={4.3691406,0.371521,-6.1810303};
 				};
 				name="ZeusMRH";
-				id=126;
+				id=17;
 				type="ModuleCurator_F";
+				atlOffset=-0.06427002;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1193,10 +1224,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-4.3129883,0,-0.70458984};
+					position[]={-4.496582,1.1966248,-1.2591553};
 				};
-				id=127;
+				id=18;
 				type="ACE_ModuleHearing";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1283,10 +1315,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-0.24121094,0,-2.0756836};
+					position[]={-0.42480469,0.79122925,-2.630249};
 				};
-				id=128;
+				id=19;
 				type="ACE_ModuleInteraction";
+				atlOffset=-0.06463623;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1308,7 +1341,26 @@ class items
 							};
 						};
 					};
-					nAttributes=1;
+					class Attribute1
+					{
+						property="ACE_ModuleInteraction_DisableNegativeRating";
+						expression="_this setVariable ['DisableNegativeRating',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
 				};
 			};
 			class Item14
@@ -1316,10 +1368,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-1.3325195,0,-1.1210938};
+					position[]={-1.5161133,0.88473511,-1.6756592};
 				};
-				id=129;
+				id=20;
 				type="ACE_ModuleMap";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1444,10 +1497,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-2.472168,0,-0.46923828};
+					position[]={-2.6557617,0.99215698,-1.0238037};
 				};
-				id=130;
+				id=21;
 				type="ace_map_gestures_moduleSettings";
+				atlOffset=-0.066009521;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1553,10 +1607,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-3.4013672,0,0.26806641};
+					position[]={-3.5849609,1.0748291,-0.28649902};
 				};
-				id=131;
+				id=22;
 				type="ace_map_gestures_moduleGroupSettings";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1605,10 +1660,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={3.71875,0,5.4350586};
+					position[]={3.5351563,0.19311523,4.8804932};
 				};
-				id=132;
+				id=23;
 				type="ACE_moduleMedicalMenuSettings";
+				atlOffset=-0.061584473;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1638,10 +1694,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={2.5229492,0,6.2290039};
+					position[]={2.3393555,0.29470825,5.6744385};
 				};
-				id=133;
+				id=24;
 				type="ACE_moduleMedicalSettings";
+				atlOffset=-0.063201904;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1918,10 +1975,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={0.61230469,0,-1.1689453};
+					position[]={0.42871094,0.67956543,-1.7235107};
 				};
-				id=134;
+				id=25;
 				type="ace_microdagr_dagrModule";
+				atlOffset=-0.06463623;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -1951,10 +2009,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-0.58642578,0,-0.19287109};
+					position[]={-0.77001953,0.78240967,-0.74743652};
 				};
-				id=135;
+				id=26;
 				type="ace_mk6mortar_module";
+				atlOffset=-0.065460205;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2041,10 +2100,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-1.7807617,0,0.796875};
+					position[]={-1.9643555,0.88708496,0.24230957};
 				};
-				id=136;
+				id=27;
 				type="ACE_ModuleNameTags";
+				atlOffset=-0.066009521;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2150,10 +2210,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={1.5092773,0,-0.31494141};
+					position[]={1.3256836,0.56521606,-0.86950684};
 				};
-				id=137;
+				id=28;
 				type="ace_nightvision_ModuleSettings";
+				atlOffset=-0.064025879;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2183,10 +2244,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={0.19628906,0,0.64794922};
+					position[]={0.012695313,0.67993164,0.093383789};
 				};
-				id=138;
+				id=29;
 				type="ace_finger_moduleSettings";
+				atlOffset=-0.06451416;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2235,10 +2297,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-0.24169922,0,4.5200195};
+					position[]={-0.42529297,0.62567139,3.9654541};
 				};
-				id=139;
+				id=30;
 				type="ACE_moduleRearmSettings";
+				atlOffset=-0.065338135;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2287,10 +2350,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={1.0029297,0,3.5307617};
+					position[]={0.81933594,0.52261353,2.9761963};
 				};
-				id=140;
+				id=31;
 				type="ACE_moduleRefuelSettings";
+				atlOffset=-0.065338135;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2339,10 +2403,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={4.1938477,0,2.3676758};
+					position[]={4.0102539,0.22180176,1.8131104};
 				};
-				id=141;
+				id=32;
 				type="ACE_moduleRepairSettings";
+				atlOffset=-0.0652771;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2524,10 +2589,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-0.94384766,0,1.8037109};
+					position[]={-1.1274414,0.77133179,1.2491455};
 				};
-				id=142;
+				id=33;
 				type="ACE_ModuleRespawn";
+				atlOffset=-0.067230225;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2576,10 +2642,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-2.7275391,0,1.2861328};
+					position[]={-2.9111328,0.97763062,0.73156738};
 				};
-				id=143;
+				id=34;
 				type="ace_scopes_ModuleSettings";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2761,32 +2828,14 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={2.4575195,0,0.5390625};
+					position[]={2.2739258,0.44726563,-0.01550293};
 				};
-				id=144;
+				id=35;
 				type="ace_spectator_moduleSettings";
+				atlOffset=-0.063293457;
 				class CustomAttributes
 				{
 					class Attribute0
-					{
-						property="ace_spectator_moduleSettings_sidesFilter";
-						expression="_this setVariable ['sidesFilter',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0;
-							};
-						};
-					};
-					class Attribute1
 					{
 						property="ace_spectator_moduleSettings_cameraModes";
 						expression="_this setVariable ['cameraModes',_value,true];";
@@ -2805,26 +2854,7 @@ class items
 							};
 						};
 					};
-					class Attribute2
-					{
-						property="ace_spectator_moduleSettings_unitsFilter";
-						expression="_this setVariable ['unitsFilter',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=2;
-							};
-						};
-					};
-					class Attribute3
+					class Attribute1
 					{
 						property="ace_spectator_moduleSettings_visionModes";
 						expression="_this setVariable ['visionModes',_value,true];";
@@ -2843,7 +2873,26 @@ class items
 							};
 						};
 					};
-					nAttributes=4;
+					class Attribute2
+					{
+						property="ace_spectator_moduleSettings_enableAI";
+						expression="_this setVariable ['enableAI',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=3;
 				};
 			};
 			class Item30
@@ -2851,10 +2900,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={1.1972656,0,1.6147461};
+					position[]={1.0136719,0.5534668,1.0601807};
 				};
-				id=145;
+				id=36;
 				type="ACE_ModuleTagging";
+				atlOffset=-0.063812256;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2884,10 +2934,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-1.9912109,0,2.3813477};
+					position[]={-2.1748047,0.86712646,1.8267822};
 				};
-				id=146;
+				id=37;
 				type="ace_ui_Module";
+				atlOffset=-0.068664551;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3563,10 +3614,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={0.044921875,0,2.7749023};
+					position[]={-0.13867188,0.64242554,2.2203369};
 				};
-				id=147;
+				id=38;
 				type="ACE_VehicleLock_ModuleSetup";
+				atlOffset=-0.065307617;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3634,10 +3686,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-1.0986328,0,3.7700195};
+					position[]={-1.2822266,0.73519897,3.2154541};
 				};
-				id=148;
+				id=39;
 				type="ace_weather_ModuleSettings";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3699,8 +3752,8 @@ class items
 					};
 					class Attribute3
 					{
-						property="ace_weather_ModuleSettings_syncRain";
-						expression="_this setVariable ['syncRain',_value,true];";
+						property="ace_weather_ModuleSettings_syncWind";
+						expression="_this setVariable ['syncWind',_value,true];";
 						class Value
 						{
 							class data
@@ -3735,26 +3788,7 @@ class items
 							};
 						};
 					};
-					class Attribute5
-					{
-						property="ace_weather_ModuleSettings_syncWind";
-						expression="_this setVariable ['syncWind',_value,true];";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					nAttributes=6;
+					nAttributes=5;
 				};
 			};
 			class Item34
@@ -3762,10 +3796,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={3.3891602,0,1.5766602};
+					position[]={3.2055664,0.32653809,1.0220947};
 				};
-				id=149;
+				id=40;
 				type="ace_winddeflection_ModuleSettings";
+				atlOffset=-0.063659668;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3852,10 +3887,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={7.0532227,0,-1.6152344};
+					position[]={6.8696289,0.015838623,-2.1697998};
 				};
-				id=150;
+				id=41;
 				type="ace_zeus_moduleSettings";
+				atlOffset=-0.065612793;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3980,10 +4016,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-2.0297852,0,-4.0415039};
+					position[]={-2.2133789,1.0300903,-4.5960693};
 				};
-				id=151;
+				id=42;
 				type="ace_advanced_ballistics_ModuleSettings";
+				atlOffset=-0.06640625;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -4184,10 +4221,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-8.3305664,0,-0.52734375};
+					position[]={-8.5141602,1.6289978,-1.0819092};
 				};
-				id=153;
+				id=43;
 				type="acre_api_nameChannels";
+				atlOffset=-0.066650391;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -4407,10 +4445,11 @@ class items
 				dataType="Logic";
 				class PositionInfo
 				{
-					position[]={-3.1855469,0,-6.8359375};
+					position[]={-3.3691406,1.2240601,-7.3905029};
 				};
-				id=174;
+				id=44;
 				type="acre_api_basicMissionSetup";
+				atlOffset=-0.065979004;
 				class CustomAttributes
 				{
 					class Attribute0
@@ -4530,7 +4569,80 @@ class items
 					nAttributes=6;
 				};
 			};
+			class Item39
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={3.7124023,0.029327393,13.268005};
+				};
+				id=45;
+				type="ACE_moduleReviveSettings";
+				atlOffset=-3.0517578e-005;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ACE_moduleReviveSettings_amountOfReviveLives";
+						expression="_this setVariable ['amountOfReviveLives',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=-1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ACE_moduleReviveSettings_enableRevive";
+						expression="_this setVariable ['enableRevive',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ACE_moduleReviveSettings_maxReviveTime";
+						expression="_this setVariable ['maxReviveTime',_value,true];";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=120;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
 		};
-		id=175;
+		id=5;
+		atlOffset=-0.024597168;
 	};
 };
